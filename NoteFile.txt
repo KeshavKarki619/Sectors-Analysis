@@ -1,0 +1,28 @@
+Objective:
+==========
+
+
+Flow:
+1. downloaded stock data for 50 stocks in nifty also nifty index and merged them to made main_df dataframe using yfinance module
+2. created multiindex array which tracks sectors with companies
+3. made df_main_sector which has these multiindexes which sectors and companies
+4. created sector indexes for each sector
+5. Calculated yearly returns for past 10 years
+
+
+
+
+
+Files or variables:
+==================
+df_sectors (df)
+symbol_list (list)
+
+
+Method of making indexes:
+==========================
+1. as per market cap
+2. as per prices
+3. equal 
+
+
